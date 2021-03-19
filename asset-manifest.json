@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/o.ofoedu/static/css/main.24cdecda.chunk.css",
+    "main.js": "/o.ofoedu/static/js/main.5d779768.chunk.js",
+    "main.js.map": "/o.ofoedu/static/js/main.5d779768.chunk.js.map",
+    "runtime-main.js": "/o.ofoedu/static/js/runtime-main.e448086e.js",
+    "runtime-main.js.map": "/o.ofoedu/static/js/runtime-main.e448086e.js.map",
+    "static/js/2.3a5eeefb.chunk.js": "/o.ofoedu/static/js/2.3a5eeefb.chunk.js",
+    "static/js/2.3a5eeefb.chunk.js.map": "/o.ofoedu/static/js/2.3a5eeefb.chunk.js.map",
+    "index.html": "/o.ofoedu/index.html",
+    "static/css/main.24cdecda.chunk.css.map": "/o.ofoedu/static/css/main.24cdecda.chunk.css.map",
+    "static/js/2.3a5eeefb.chunk.js.LICENSE.txt": "/o.ofoedu/static/js/2.3a5eeefb.chunk.js.LICENSE.txt",
+    "static/media/Services.css": "/o.ofoedu/static/media/img-8.98de24cd.jpg",
+    "static/media/About.css": "/o.ofoedu/static/media/img-12.46111108.jpg",
+    "static/media/img-13.392abf11.jpg": "/o.ofoedu/static/media/img-13.392abf11.jpg",
+    "static/media/Contact.css": "/o.ofoedu/static/media/img-2.ac7e8be7.jpg",
+    "static/media/HeroSection.css": "/o.ofoedu/static/media/img-4.e9a545ee.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e448086e.js",
+    "static/js/2.3a5eeefb.chunk.js",
+    "static/css/main.24cdecda.chunk.css",
+    "static/js/main.5d779768.chunk.js"
+  ]
+}
