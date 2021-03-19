@@ -1,0 +1,178 @@
+.contact-bg-image {
+    background-image: url('/src/images/img-2.jpg');
+    width: 100%;
+    background-position-y: -700px;
+    background-size: cover;
+    filter: grayscale(1);
+    background-repeat: no-repeat;
+    padding: 170px;
+}
+
+.contact-bg-image h1 {    
+    font-family: 'Special Elite', cursive;
+    text-align: center;
+}
+
+.contact-first-section {    
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    font-size: 1rem;
+    height: fit-content;
+    padding-bottom: 30px;
+}
+
+.contact-first-section h3 {
+    font-family: 'Special Elite', cursive;
+    font-size: 2rem;
+}
+
+.contact-first-section hr {
+    width: 100px;
+    padding: 4px;
+    border-radius: 50px;
+    border: none;
+    margin: 9px 0 0 0;
+    background-color: #2d3683;
+}
+
+.contact-first-section p {
+    padding: 50px 0 0 0;
+}
+
+.contact-second-section {
+    display: flex;
+    width: 100%;
+}
+
+.contact-left-side {
+    display: flex;
+    width: 50%;
+}
+
+.contact-box .fas {
+    color: #2d3683;
+    padding-bottom: 20px;
+    text-shadow: 3px 1px 8px rgb(160, 160, 152);
+}
+
+.contact-left-side-items-email-link {
+    color: inherit;
+    text-decoration: none;
+}
+
+.contact-left-side-items-email-link:hover{
+    font-weight: bold;
+}
+
+.contact-box {
+    padding: 20px;
+    border-radius: 8px; 
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 0 4px 15px 1px lightgrey;
+}
+
+.contact-right-side {
+    width: 50%;
+}
+
+.contact-right-side h2 {
+    padding: 15px 0 15px 0;
+}
+
+.dot {
+    font-size: 50px;
+    color: #2d3683;
+}
+
+form {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 50px 0 50px;
+}
+
+.form-name {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input, button {
+    width: 100%;
+    padding: 18px;
+    border: none;
+    margin-bottom: 15px; 
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 0 4px 15px 1px lightgrey;
+}
+
+.input:focus {
+    transition: 0.6s;
+    background-color: rgba(202, 202, 236, 0.199);
+}
+
+.name-input {
+    width: 49%;
+}
+
+button {
+    background-color: #2d3683;
+    padding: 15px;
+    color: white;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:1180px) {
+    .contact {
+        width: 100%;
+    }
+
+    .contact-second-section {
+        display: block;
+    }    
+    
+    .contact-left-side {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .contact-right-side {
+        width: 100%;
+    }
+
+    form {
+        text-align: center;
+        width: 100%;
+        padding: 50px 0 0 0;
+    }
+    
+    .input, button {
+        width: 100%;
+        padding: 18px;
+        border: none;
+        margin-bottom: 15px; 
+        outline: none;
+        font-family: 'Montserrat', sans-serif;
+        box-shadow: 0 4px 15px 1px lightgrey;
+    }
+    
+    .input:focus {
+        transition: 0.6s;
+        background-color: rgba(202, 202, 236, 0.199);
+    }
+    
+    .name-input {
+        width: 49.3%;
+    }   
+}
+
+
+@media screen and (max-width:900px) {
+    .contact-bg-image {
+        background-position-y: -50px;
+    }
+    
+}
+
